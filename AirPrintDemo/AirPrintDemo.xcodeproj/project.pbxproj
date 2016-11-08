@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C786E0A21DD086B20068381F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C786E0A11DD086B20068381F /* AppDelegate.swift */; };
+		C786E0A91DD086B20068381F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C786E0A81DD086B20068381F /* Assets.xcassets */; };
+		C786E0AC1DD086B20068381F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C786E0AA1DD086B20068381F /* LaunchScreen.storyboard */; };
+		C786E0C51DD087210068381F /* PrintList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C786E0C01DD087210068381F /* PrintList.swift */; };
+		C786E0C61DD087210068381F /* PrintList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C786E0C11DD087210068381F /* PrintList.storyboard */; };
+		C786E0C71DD087210068381F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C786E0C21DD087210068381F /* ViewController.swift */; };
+		C786E0C81DD087210068381F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C786E0C31DD087210068381F /* Main.storyboard */; };
+		C786E0C91DD087210068381F /* PrinterSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C786E0C41DD087210068381F /* PrinterSingleton.swift */; };
+		C786E0CE1DD087510068381F /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C786E0CB1DD087510068381F /* MainScreen.swift */; };
+		C786E0CF1DD087510068381F /* BootLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C786E0CC1DD087510068381F /* BootLogic.swift */; };
+		C786E0D01DD087510068381F /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C786E0CD1DD087510068381F /* Menu.swift */; };
+		C7BF08141DD08A9A00A56DD6 /* TestHTML.html in Resources */ = {isa = PBXBuildFile; fileRef = C7BF080F1DD08A9A00A56DD6 /* TestHTML.html */; };
+		C7BF08151DD08A9A00A56DD6 /* TestImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7BF08101DD08A9A00A56DD6 /* TestImage.jpg */; };
+		C7BF08161DD08A9A00A56DD6 /* TestPDF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C7BF08111DD08A9A00A56DD6 /* TestPDF.pdf */; };
+		C7BF08171DD08A9A00A56DD6 /* TestPDF1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C7BF08121DD08A9A00A56DD6 /* TestPDF1.pdf */; };
+		C7BF08181DD08A9A00A56DD6 /* TestPDF2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C7BF08131DD08A9A00A56DD6 /* TestPDF2.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C786E09E1DD086B20068381F /* AirPrintDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPrintDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C786E0A11DD086B20068381F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C786E0A81DD086B20068381F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C786E0AB1DD086B20068381F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C786E0AD1DD086B20068381F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C786E0C01DD087210068381F /* PrintList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintList.swift; sourceTree = "<group>"; };
+		C786E0C11DD087210068381F /* PrintList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PrintList.storyboard; sourceTree = "<group>"; };
+		C786E0C21DD087210068381F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C786E0C31DD087210068381F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C786E0C41DD087210068381F /* PrinterSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrinterSingleton.swift; sourceTree = "<group>"; };
+		C786E0CB1DD087510068381F /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		C786E0CC1DD087510068381F /* BootLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootLogic.swift; sourceTree = "<group>"; };
+		C786E0CD1DD087510068381F /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		C7BF080F1DD08A9A00A56DD6 /* TestHTML.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TestHTML.html; sourceTree = "<group>"; };
+		C7BF08101DD08A9A00A56DD6 /* TestImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TestImage.jpg; sourceTree = "<group>"; };
+		C7BF08111DD08A9A00A56DD6 /* TestPDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TestPDF.pdf; sourceTree = "<group>"; };
+		C7BF08121DD08A9A00A56DD6 /* TestPDF1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TestPDF1.pdf; sourceTree = "<group>"; };
+		C7BF08131DD08A9A00A56DD6 /* TestPDF2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TestPDF2.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C786E09B1DD086B20068381F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C786E0951DD086B20068381F = {
+			isa = PBXGroup;
+			children = (
+				C786E0A01DD086B20068381F /* AirPrintDemo */,
+				C786E09F1DD086B20068381F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C786E09F1DD086B20068381F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C786E09E1DD086B20068381F /* AirPrintDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C786E0A01DD086B20068381F /* AirPrintDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C7BF08191DD08A9D00A56DD6 /* DataPrint */,
+				C786E0CA1DD087450068381F /* BootStrap */,
+				C786E0BF1DD086DC0068381F /* AppAirPrint */,
+				C786E0A11DD086B20068381F /* AppDelegate.swift */,
+				C786E0A81DD086B20068381F /* Assets.xcassets */,
+				C786E0AA1DD086B20068381F /* LaunchScreen.storyboard */,
+				C786E0AD1DD086B20068381F /* Info.plist */,
+			);
+			path = AirPrintDemo;
+			sourceTree = "<group>";
+		};
+		C786E0BF1DD086DC0068381F /* AppAirPrint */ = {
+			isa = PBXGroup;
+			children = (
+				C786E0C01DD087210068381F /* PrintList.swift */,
+				C786E0C11DD087210068381F /* PrintList.storyboard */,
+				C786E0C21DD087210068381F /* ViewController.swift */,
+				C786E0C31DD087210068381F /* Main.storyboard */,
+				C786E0C41DD087210068381F /* PrinterSingleton.swift */,
+			);
+			name = AppAirPrint;
+			sourceTree = "<group>";
+		};
+		C786E0CA1DD087450068381F /* BootStrap */ = {
+			isa = PBXGroup;
+			children = (
+				C786E0CB1DD087510068381F /* MainScreen.swift */,
+				C786E0CC1DD087510068381F /* BootLogic.swift */,
+				C786E0CD1DD087510068381F /* Menu.swift */,
+			);
+			name = BootStrap;
+			sourceTree = "<group>";
+		};
+		C7BF08191DD08A9D00A56DD6 /* DataPrint */ = {
+			isa = PBXGroup;
+			children = (
+				C7BF080F1DD08A9A00A56DD6 /* TestHTML.html */,
+				C7BF08101DD08A9A00A56DD6 /* TestImage.jpg */,
+				C7BF08111DD08A9A00A56DD6 /* TestPDF.pdf */,
+				C7BF08121DD08A9A00A56DD6 /* TestPDF1.pdf */,
+				C7BF08131DD08A9A00A56DD6 /* TestPDF2.pdf */,
+			);
+			name = DataPrint;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C786E09D1DD086B20068381F /* AirPrintDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C786E0B01DD086B20068381F /* Build configuration list for PBXNativeTarget "AirPrintDemo" */;
+			buildPhases = (
+				C786E09A1DD086B20068381F /* Sources */,
+				C786E09B1DD086B20068381F /* Frameworks */,
+				C786E09C1DD086B20068381F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirPrintDemo;
+			productName = AirPrintDemo;
+			productReference = C786E09E1DD086B20068381F /* AirPrintDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C786E0961DD086B20068381F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Lê Hà Thành";
+				TargetAttributes = {
+					C786E09D1DD086B20068381F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S5XU9KKHJG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C786E0991DD086B20068381F /* Build configuration list for PBXProject "AirPrintDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C786E0951DD086B20068381F;
+			productRefGroup = C786E09F1DD086B20068381F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C786E09D1DD086B20068381F /* AirPrintDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C786E09C1DD086B20068381F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BF08141DD08A9A00A56DD6 /* TestHTML.html in Resources */,
+				C7BF08161DD08A9A00A56DD6 /* TestPDF.pdf in Resources */,
+				C7BF08151DD08A9A00A56DD6 /* TestImage.jpg in Resources */,
+				C7BF08181DD08A9A00A56DD6 /* TestPDF2.pdf in Resources */,
+				C786E0AC1DD086B20068381F /* LaunchScreen.storyboard in Resources */,
+				C786E0A91DD086B20068381F /* Assets.xcassets in Resources */,
+				C786E0C61DD087210068381F /* PrintList.storyboard in Resources */,
+				C786E0C81DD087210068381F /* Main.storyboard in Resources */,
+				C7BF08171DD08A9A00A56DD6 /* TestPDF1.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C786E09A1DD086B20068381F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C786E0C91DD087210068381F /* PrinterSingleton.swift in Sources */,
+				C786E0C71DD087210068381F /* ViewController.swift in Sources */,
+				C786E0D01DD087510068381F /* Menu.swift in Sources */,
+				C786E0CE1DD087510068381F /* MainScreen.swift in Sources */,
+				C786E0A21DD086B20068381F /* AppDelegate.swift in Sources */,
+				C786E0CF1DD087510068381F /* BootLogic.swift in Sources */,
+				C786E0C51DD087210068381F /* PrintList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C786E0AA1DD086B20068381F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C786E0AB1DD086B20068381F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C786E0AE1DD086B20068381F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C786E0AF1DD086B20068381F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C786E0B11DD086B20068381F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S5XU9KKHJG;
+				INFOPLIST_FILE = AirPrintDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.superman.AirPrintDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C786E0B21DD086B20068381F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S5XU9KKHJG;
+				INFOPLIST_FILE = AirPrintDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.superman.AirPrintDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C786E0991DD086B20068381F /* Build configuration list for PBXProject "AirPrintDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C786E0AE1DD086B20068381F /* Debug */,
+				C786E0AF1DD086B20068381F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C786E0B01DD086B20068381F /* Build configuration list for PBXNativeTarget "AirPrintDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C786E0B11DD086B20068381F /* Debug */,
+				C786E0B21DD086B20068381F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C786E0961DD086B20068381F /* Project object */;
+}
